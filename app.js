@@ -66,18 +66,18 @@ document.write("Score of Ahmad is " + obtainedMarks[2] + ".percentage :" + (obta
 // Question # 09 (a)
 var colorName = ["Brown ", "Blue ", "Black ", "Orange."]
 console.log(colorName)
-// var newColor = prompt("what color you want to add beginning");
-// colorName.unshift( newColor)
-// console.log("The Update Arry is : " + colorName)
+var newColor = prompt("what color you want to add beginning");
+colorName.unshift( newColor)
+console.log("The Update Arry is : " + colorName)
 
-// document.write("Arry : " + " Brown ," + " Blue," + " Black ," +  " Orange," + "<br>"   )
-// document.write("The Update Arry after added new color in the beginning is : " + colorName + ".<br>");
+document.write("Arry : " + " Brown ," + " Blue," + " Black ," +  " Orange," + "<br>"   )
+document.write("The Update Arry after added new color in the beginning is : " + colorName + ".<br>");
 
 // // Question # 09 (b)
-// var newColor = prompt("what color you want to add End");
-// colorName.push( newColor)
-// console.log("The Update Arry is : " + colorName)
-// document.write("The Update Arry after added new color in the End is : " + colorName + ".<br>");
+var newColor = prompt("what color you want to add End");
+colorName.push( newColor)
+console.log("The Update Arry is : " + colorName)
+document.write("The Update Arry after added new color in the End is : " + colorName + ".<br>");
 
 // Question # 09 (c)
 colorName.unshift("White", "Purple")
@@ -95,17 +95,17 @@ console.log("The Update Arry is : " + colorName)
 document.write("The Update Arry after deleted the color in the End is : " + colorName + ".<br>");
 
 // Question # 09 (f)
-// var newColor = prompt(" what color you want to add ");
-// var index = prompt("which index you want to added");
-// colorName.splice(index , 0 ,newColor)
-// console.log("The Update Arry is : " + colorName)
-// document.write("The Update Arry after added the new color is : " + colorName + ".<br>");
+var newColor = prompt(" what color you want to add ");
+var index = prompt("which index you want to added");
+colorName.splice(index , 0 ,newColor)
+console.log("The Update Arry is : " + colorName)
+document.write("The Update Arry after added the new color is : " + colorName + ".<br>");
 
 // // Question # 09 (e)
-// var index = prompt("which index you want to delete");
-// colorName.splice(0 , index )
-// console.log("The Update Arry is : " + colorName)
-// document.write("The Update Arry after deleted the index  is : " + colorName + ".<br>" + ".<br>");
+var index = prompt("which index you want to delete");
+colorName.splice(0 , index )
+console.log("The Update Arry is : " + colorName)
+document.write("The Update Arry after deleted the index  is : " + colorName + ".<br>" + ".<br>");
 
 // Question # 10
 var studentScores = [230,330, 280, 270, 380]
